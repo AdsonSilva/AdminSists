@@ -20,26 +20,24 @@ testaExercicio()
 	exercicio=$1
 	aluno=$2
 
-	echo "EXERCICIO_$exercicio_$aluno:"
+	nomeDoExercicio='EXERCICIO_'$exercicio'_'$aluno
+	echo $nomeDoExercicio':'
 
-	entradas=$(ls *.in | grep "$exercicio_")
+	entradas=$(ls *.in | grep $exercicio'_')
+
+	numEntrada=0
+	for entrada in entradas;
+	do
+		set numEntrada=$numEntrada + 1
+		echo '- SAIDA PARA ENTRADA '$numEntrada':'
+		$(./$nomeDoExercicio.sh < $entrada > aux.out)
+		cat aux.out
+		echo
+
+	done
+	set numEntrada=0
 
 	
 
 }
 
-
-
-semParametro()
-{
-	while read linha
-	do
-		if [ "${linha:14}" != ".in" -o "${linha:14}" != ".out" ]; then
-
-			aluno="${linha:13}"
-
-			testaTodosExercicios $linha $aluno
-		fi
-
-	done < diretorio
-}
