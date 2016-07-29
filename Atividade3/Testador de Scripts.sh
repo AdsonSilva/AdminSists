@@ -32,12 +32,9 @@ testaExercicio()
 		echo '- SAIDA PARA ENTRADA '$numEntrada':'
 		$(./$nomeDoExercicio.sh < $entrada > aux.out)
 		cat aux.out
-		echo
+		echo 
 
 	done
 	set numEntrada=0
-
-	
-
 }
 
