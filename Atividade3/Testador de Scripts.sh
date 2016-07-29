@@ -20,7 +20,12 @@ testaExercicio()
 	exercicio=$1
 	aluno=$2
 
-	exercicios=$(ls *.in | grep $exercicio)
+	echo "EXERCICIO_$exercicio_$aluno:"
+
+	entradas=$(ls *.in | grep "$exercicio_")
+
+	
+
 }
 
 
