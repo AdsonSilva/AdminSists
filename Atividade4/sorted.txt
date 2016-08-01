@@ -1,0 +1,228 @@
+exit_group(0)                           = ?
++++ exited with 0 +++
+lseek(3, -438, SEEK_CUR)                = 276 <0.000009>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000009>
+fstat(3, {st_mode=S_IFREG|0644, st_size=39824, ...}) = 0 <0.000009>
+close(3)                                = 0 <0.000009>
+close(3)                                = 0 <0.000009>
+close(3)                                = 0 <0.000009>
+close(3)                                = 0 <0.000009>
+close(2)                                = 0 <0.000009>
+read(3, "", 1024)                       = 0 <0.000010>
+lseek(3, 962, SEEK_SET)                 = 962 <0.000010>
+lseek(3, 2000, SEEK_SET)                = 2000 <0.000010>
+fstat(3, {st_mode=S_IFREG|0644, st_size=714, ...}) = 0 <0.000010>
+fstat(3, {st_mode=S_IFREG|0644, st_size=714, ...}) = 0 <0.000010>
+fstat(3, {st_mode=S_IFREG|0644, st_size=619, ...}) = 0 <0.000010>
+fstat(3, {st_mode=S_IFREG|0644, st_size=100277, ...}) = 0 <0.000010>
+close(3)                                = 0 <0.000010>
+close(3)                                = 0 <0.000010>
+close(3)                                = 0 <0.000010>
+close(3)                                = 0 <0.000010>
+close(3)                                = 0 <0.000010>
+close(1)                                = 0 <0.000010>
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\3\0\0\0\0"..., 4096) = 438 <0.000011>
+read(3, "", 4096)                       = 0 <0.000011>
+lseek(3, 0, SEEK_CUR)                   = 0 <0.000011>
+getdents(3, /* 0 entries */, 32768)     = 0 <0.000011>
+fstat(3, {st_mode=S_IFREG|0644, st_size=97296, ...}) = 0 <0.000011>
+fstat(3, {st_mode=S_IFREG|0644, st_size=47760, ...}) = 0 <0.000011>
+fstat(3, {st_mode=S_IFREG|0644, st_size=43616, ...}) = 0 <0.000011>
+fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0 <0.000011>
+fstat(3, {st_mode=S_IFREG|0644, st_size=2000, ...}) = 0 <0.000011>
+fstat(3, {st_mode=S_IFREG|0644, st_size=100277, ...}) = 0 <0.000011>
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0 <0.000011>
+close(3)                                = 0 <0.000011>
+close(3)                                = 0 <0.000011>
+close(3)                                = 0 <0.000011>
+close(3)                                = 0 <0.000011>
+close(3)                                = 0 <0.000011>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832 <0.000012>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`A\0\0\0\0\0\0"..., 832) = 832 <0.000012>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\23\0\0\0\0\0\0"..., 832) = 832 <0.000012>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832 <0.000012>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240!\0\0\0\0\0\0"..., 832) = 832 <0.000012>
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a363000 <0.000012>
+fstat(3, {st_mode=S_IFREG|0755, st_size=1840928, ...}) = 0 <0.000012>
+fstat(3, {st_mode=S_IFREG|0644, st_size=962, ...}) = 0 <0.000012>
+fstat(3, {st_mode=S_IFREG|0644, st_size=7224752, ...}) = 0 <0.000012>
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0 <0.000012>
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0 <0.000012>
+fstat(3, {st_mode=S_IFREG|0644, st_size=18624, ...}) = 0 <0.000012>
+fstat(3, {st_mode=S_IFREG|0644, st_size=100277, ...}) = 0 <0.000012>
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0 <0.000012>
+close(3)                                = 0 <0.000012>
+close(3)                                = 0 <0.000012>
+close(3)                                = 0 <0.000012>
+close(3)                                = 0 <0.000012>
+brk(0)                                  = 0x1c91000 <0.000012>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000012>
+statfs("/selinux", 0x7fffbd532750)      = -1 ENOENT (No such file or directory) <0.000013>
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=714, ...}) = 0 <0.000013>
+read(3, "", 4096)                       = 0 <0.000013>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\34\0\0\0\0\0\0"..., 832) = 832 <0.000013>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832 <0.000013>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\27\0\0\0\0\0\0"..., 832) = 832 <0.000013>
+open("/usr/share/locale-langpack/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000013>
+open("/usr/share/locale/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000013>
+mprotect(0x7f2f19f3c000, 4096, PROT_READ) = 0 <0.000013>
+mprotect(0x7f2f19731000, 4096, PROT_READ) = 0 <0.000013>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a378000 <0.000013>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a377000 <0.000013>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a367000 <0.000013>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a365000 <0.000013>
+mmap(NULL, 2000, PROT_READ, MAP_SHARED, 3, 0) = 0x7f2f1a379000 <0.000013>
+lstat("/home/huawei/Documents/AdminSists/Atividade4", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000013>
+ioctl(1, TIOCGWINSZ, {ws_row=24, ws_col=138, ws_xpixel=0, ws_ypixel=0}) = 0 <0.000013>
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0 <0.000013>
+getxattr("/home/huawei/Documents/AdminSists/", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available) <0.000013>
+getxattr("/home/huawei/Documents/AdminSists/Atividade4", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available) <0.000013>
+getxattr("/home/huawei/Documents/AdminSists/Atividade4", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available) <0.000013>
+getxattr("/home/huawei/Documents/AdminSists/Atividade3", "system.posix_acl_default", 0x0, 0) = -1 ENODATA (No data available) <0.000013>
+fstat(3, {st_mode=S_IFREG|0644, st_size=31168, ...}) = 0 <0.000013>
+fstat(3, {st_mode=S_IFREG|0644, st_size=252032, ...}) = 0 <0.000013>
+fstat(3, {st_mode=S_IFREG|0644, st_size=134296, ...}) = 0 <0.000013>
+close(3)                                = 0 <0.000013>
+close(3)                                = 0 <0.000013>
+close(3)                                = 0 <0.000013>
+arch_prctl(ARCH_SET_FS, 0x7f2f1a363840) = 0 <0.000013>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000013>
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3 <0.000014>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\20\0\0\0\0\0\0"..., 832) = 832 <0.000014>
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0[\0\0\0\0\0\0"..., 832) = 832 <0.000014>
+open("/usr/share/locale-langpack/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000014>
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000014>
+open("/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000014>
+munmap(0x7f2f1a379000, 962)             = 0 <0.000014>
+munmap(0x7f2f1a379000, 2000)            = 0 <0.000014>
+mprotect(0x7f2f1a15d000, 4096, PROT_READ) = 0 <0.000014>
+mprotect(0x7f2f18820000, 4096, PROT_READ) = 0 <0.000014>
+mprotect(0x619000, 4096, PROT_READ)     = 0 <0.000014>
+mmap(NULL, 962, PROT_READ, MAP_SHARED, 3, 0) = 0x7f2f1a379000 <0.000014>
+mmap(NULL, 619, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2f1a379000 <0.000014>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a380000 <0.000014>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a380000 <0.000014>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a366000 <0.000014>
+mmap(NULL, 100277, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2f1a34a000 <0.000014>
+lstat("/home/huawei/Documents/AdminSists/Atividade3", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000014>
+lgetxattr("/home/huawei/Documents/AdminSists/Atividade4", "security.selinux", 0x1ca3ba0, 255) = -1 ENODATA (No data available) <0.000014>
+getxattr("/home/huawei/Documents/AdminSists/Atividade3", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available) <0.000014>
+close(3)                                = 0 <0.000014>
+close(3)                                = 0 <0.000014>
+brk(0x1cb2000)                          = 0x1cb2000 <0.000014>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000014>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000014>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000014>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000014>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000014>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000014>
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\3\0\0\0\0"..., 4096) = 714 <0.000015>
+open("/usr/share/locale-langpack/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3 <0.000015>
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000015>
+munmap(0x7f2f1a378000, 4096)            = 0 <0.000015>
+mprotect(0x7f2f1a383000, 4096, PROT_READ) = 0 <0.000015>
+mprotect(0x7f2f1996f000, 4096, PROT_READ) = 0 <0.000015>
+mprotect(0x7f2f1952d000, 4096, PROT_READ) = 0 <0.000015>
+mprotect(0x7f2f18c44000, 4096, PROT_READ) = 0 <0.000015>
+mprotect(0x7f2f18614000, 4096, PROT_READ) = 0 <0.000015>
+mmap(NULL, 3949248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f19971000 <0.000015>
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7f2f1a37a000 <0.000015>
+mmap(NULL, 2139944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f1840b000 <0.000015>
+mmap(NULL, 2113760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f1932a000 <0.000015>
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f1952f000 <0.000015>
+mmap(NULL, 100277, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2f1a34a000 <0.000015>
+lstat("/home/huawei/Documents/AdminSists/", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0 <0.000015>
+lgetxattr("/home/huawei/Documents/AdminSists/Atividade3", "security.selinux", 0x1ca3ba0, 255) = -1 ENODATA (No data available) <0.000015>
+getxattr("/home/huawei/Documents/AdminSists/", "system.posix_acl_access", 0x0, 0) = -1 ENODATA (No data available) <0.000015>
+close(3)                                = 0 <0.000015>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000015>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000015>
+open("/usr/share/locale/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000016>
+open("/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000016>
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3 <0.000016>
+open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000016>
+open("/lib/x86_64-linux-gnu/libattr.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000016>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000016>
+openat(AT_FDCWD, "/home/huawei/Documents/AdminSists/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3 <0.000016>
+munmap(0x7f2f1a379000, 4096)            = 0 <0.000016>
+mprotect(0x7f2f1932e000, 2093056, PROT_NONE) = 0 <0.000016>
+mprotect(0x7f2f18a38000, 4096, PROT_READ) = 0 <0.000016>
+mmap(NULL, 7224752, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2f18c46000 <0.000016>
+mmap(NULL, 2347200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f19733000 <0.000016>
+mmap(NULL, 2238192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f19f3e000 <0.000016>
+mmap(NULL, 2202328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f18822000 <0.000016>
+mmap(NULL, 2143784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f18616000 <0.000016>
+mmap(NULL, 2135368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f18a3c000 <0.000016>
+mmap(NULL, 2126336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f19d36000 <0.000016>
+mmap(NULL, 100277, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2f1a368000 <0.000016>
+mmap(0x7f2f1a15f000, 5872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a15f000 <0.000016>
+mmap(0x7f2f19f3c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f2f19f3c000 <0.000016>
+mmap(0x7f2f19d31000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2f19d31000 <0.000016>
+mmap(0x7f2f19731000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f2f19731000 <0.000016>
+mmap(0x7f2f1952d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f2f1952d000 <0.000016>
+mmap(0x7f2f18a3a000, 6872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2f18a3a000 <0.000016>
+mmap(0x7f2f18820000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f2f18820000 <0.000016>
+mmap(0x7f2f18614000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f2f18614000 <0.000016>
+lgetxattr("/home/huawei/Documents/AdminSists/", "security.selinux", 0x1c98de0, 255) = -1 ENODATA (No data available) <0.000016>
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570 <0.000017>
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3 <0.000017>
+open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3 <0.000017>
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000017>
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000017>
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000017>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000017>
+munmap(0x7f2f1a380000, 4096)            = 0 <0.000017>
+munmap(0x7f2f1a377000, 4096)            = 0 <0.000017>
+mprotect(0x7f2f19d2b000, 16384, PROT_READ) = 0 <0.000017>
+mprotect(0x7f2f18a45000, 2093056, PROT_NONE) = 0 <0.000017>
+mprotect(0x7f2f18621000, 2093056, PROT_NONE) = 0 <0.000017>
+mprotect(0x7f2f18415000, 2093056, PROT_NONE) = 0 <0.000017>
+mmap(0x7f2f19d2b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ba000) = 0x7f2f19d2b000 <0.000017>
+mmap(0x7f2f1996f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3c000) = 0x7f2f1996f000 <0.000017>
+mmap(0x7f2f18c44000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f2f18c44000 <0.000017>
+close(3)                                = 0 <0.000017>
+close(3)                                = 0 <0.000017>
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory) <0.000017>
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507 <0.000018>
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3 <0.000018>
+munmap(0x7f2f1a380000, 4096)            = 0 <0.000018>
+mprotect(0x7f2f19d3d000, 2093056, PROT_NONE) = 0 <0.000018>
+mprotect(0x7f2f18839000, 2093056, PROT_NONE) = 0 <0.000018>
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a379000 <0.000018>
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0 <0.000018>
+mprotect(0x7f2f19770000, 2093056, PROT_NONE) = 0 <0.000019>
+mprotect(0x7f2f19532000, 2093056, PROT_NONE) = 0 <0.000019>
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3 <0.000020>
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3 <0.000020>
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000020>
+mprotect(0x7f2f19f5e000, 2093056, PROT_NONE) = 0 <0.000020>
+mprotect(0x7f2f19b2b000, 2097152, PROT_NONE) = 0 <0.000020>
+mmap(0x7f2f1a15d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x7f2f1a15d000 <0.000020>
+mmap(0x7f2f18a38000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f2f18a38000 <0.000020>
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory) <0.000020>
+write(1, "drwxrwxr-x 2 huawei huawei 4096 "..., 56) = 56 <0.000022>
+statfs("/sys/fs/selinux", 0x7fffbd532750) = -1 ENOENT (No such file or directory) <0.000022>
+open("/proc/filesystems", O_RDONLY)     = 3 <0.000023>
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3 <0.000023>
+brk(0)                                  = 0x1c91000 <0.000023>
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory) <0.000025>
+munmap(0x7f2f1a368000, 100277)          = 0 <0.000026>
+munmap(0x7f2f1a34a000, 100277)          = 0 <0.000026>
+open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000027>
+open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000027>
+write(1, "total 8\n", 8)                = 8 <0.000028>
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 326 <0.000029>
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3 <0.000030>
+open("/etc/group", O_RDONLY|O_CLOEXEC)  = 3 <0.000030>
+open("/lib/x86_64-linux-gnu/libacl.so.1", O_RDONLY|O_CLOEXEC) = 3 <0.000034>
+getdents(3, /* 5 entries */, 32768)     = 136 <0.000034>
+write(1, "drwxrwxr-x 3 huawei huawei 4096 "..., 56) = 56 <0.000036>
+close(3)                                = 0 <0.000037>
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3 <0.000041>
+munmap(0x7f2f1a34a000, 100277)          = 0 <0.000043>
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory) <0.000052>
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory) <0.000052>
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3 <0.000058>
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1a381000 <0.000061>
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory) <0.000061>
+execve("/bin/ls", ["ls", "-l", "/home/huawei/Documents/AdminSist"...], [/* 70 vars */]) = 0 <0.000282>
