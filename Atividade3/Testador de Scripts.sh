@@ -38,3 +38,9 @@ testaExercicio()
 	set numEntrada=0
 }
 
+semParametro(){
+	exerciciosAlunos=$(ls *.sh)
+	for exAl in exerciciosAlunos;
+	do
+		testaExercicio exAl
+}
