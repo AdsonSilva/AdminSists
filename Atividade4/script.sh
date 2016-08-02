@@ -9,4 +9,14 @@ strace -T -oaux.txt $comando1 $comando2 $diretorio
 
 sort -r -t'<' -k2,2n aux.txt > sorted.txt
 
-#tail -3 sorted.txt > aux.txt
+tail -n 3 sorted.txt > aux.txt
+tac aux.txt > reverse.txt
+
+while read linha;
+do
+	echo $linha
+done < reverse.txt
+
+rm -rf aux.txt
+rm -rf sorted.txt
+rm -rf reverse.txt
