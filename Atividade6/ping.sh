@@ -21,13 +21,15 @@ ping -c 10 -s 64 $endereco | grep 'time=' > pingOut.txt
 
 sort -n -t'=' -k4,4n pingOut.txt > sorted.txt
 
+tail -3 sorted > maiores
+
 meio=$(sed -n 5' p;' sorted.txt)
 
 echo "Tempo medio de pacotes com 64 bytes: ${meio:(-6)}"
 
 #excluindo arquivos auxiliares
 rm -rf pingOut.txt
-rm -rf sorted.txt
+#rm -rf sorted.txt
 
 #Respostas
 #1: X representa o endereco atribuido ao ip acessado

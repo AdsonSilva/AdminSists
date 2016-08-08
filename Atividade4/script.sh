@@ -18,5 +18,5 @@ do
 done < reverse.txt
 
 rm -rf aux.txt
-rm -rf sorted.txt
+#rm -rf sorted.txt
 rm -rf reverse.txt
