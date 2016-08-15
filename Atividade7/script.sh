@@ -8,10 +8,11 @@ do
 
 	status=$(head -1 cabecalho.txt | cut -d " " -f 2)
 	
+	contemPalavra=0
 	if [ $# -eq 2 ]; then
 		palavras=$2
 
-		contemPalavra=1
+		let contemPalavra=1
 		curl -s $endereco > htmlCompleto.txt
 
 		while read palavra;
@@ -39,3 +40,8 @@ done < $paginas
 cat out.txt
 
 rm -rf out.txt
+rm -rf cabecalho.txt
+
+if [ $contemPalavra -eq 1 ]; then
+	rm -rf htmlCompleto.txt
+fi
