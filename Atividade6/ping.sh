@@ -1,5 +1,26 @@
 #!/bin/bash
 
+media3maiores()
+{
+	tail -3 $1 > maiores.txt
+
+	soma=0
+
+	while read linha
+	do
+		maior=${linha:(-6):3}
+		let soma=$soma+$maior
+
+	done < maiores.txt
+
+	media=$(((soma/3)))
+
+	echo "A media dos 3 maiores tempos eh: $media"
+
+	rm -rf maiores.txt
+}
+
+
 #funcionalidade extra - receber um endereco como paramentro
 if [ $# == 0 ]; then
 	endereco='www.tecmundo.com.br'
@@ -16,20 +37,24 @@ meio=$(sed -n 5' p;' sorted.txt)
 
 echo "Tempo medio de pacotes com 56 bytes: ${meio:(-6)}"
 
+media3maiores sorted.txt
+
 #pacotes com 64 bytes
 ping -c 10 -s 64 $endereco | grep 'time=' > pingOut.txt
 
 sort -n -t'=' -k4,4n pingOut.txt > sorted.txt
 
-tail -3 sorted > maiores
 
 meio=$(sed -n 5' p;' sorted.txt)
 
 echo "Tempo medio de pacotes com 64 bytes: ${meio:(-6)}"
 
+media3maiores sorted.txt
+
 #excluindo arquivos auxiliares
 rm -rf pingOut.txt
-#rm -rf sorted.txt
+rm -rf sorted.txt
+
 
 #Respostas
 #1: X representa o endereco atribuido ao ip acessado
