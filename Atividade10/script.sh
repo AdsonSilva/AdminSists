@@ -26,6 +26,15 @@ while read linha; do
 			status="OK"
 		else
 			status="ERROR"
+
+			#Funcionalidade extra: Calula os 3 tipos, quando o código não confere como enviado
+			md5=$(md5sum $arquivo | cut -d " " -f 1)
+			crc=$(cksum $arquivo | cut -d " " -f 1)
+			sha1=$(sha1sum $arquivo | cut -d " " -f 1)
+
+			echo "MD5 $md5"
+			echo "CRC $crc"
+			echo "SHA1 $sha1"
 		fi
 
 	else
